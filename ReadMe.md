@@ -1,5 +1,4 @@
+### Como baixar um arquivo:
+![baixar um arquivo](https://user-images.githubusercontent.com/96930584/222406486-0ec95e75-75c6-45b0-90bb-e82b0b7cfeb0.gif)
 ### Como baixar todos os arquivos:
-![123](https://user-images.githubusercontent.com/96930584/203297118-24d51c3a-cea8-43a5-83f9-04a9fd46014a.gif)
-
-### Como baixar um projeto:
-![321](https://user-images.githubusercontent.com/96930584/203297274-64f2d0f7-2363-4311-b20d-5053a583f300.gif)
+![baixar tudo](https://user-images.githubusercontent.com/96930584/222406534-f32b91fb-f843-4572-a163-faef6c0eb078.gif)
