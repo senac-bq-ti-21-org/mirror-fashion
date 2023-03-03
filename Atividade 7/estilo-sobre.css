@@ -14,7 +14,7 @@ h2 {
     margin-top: 30px; /*Margem ao topo*/
 }
 p {
-    padding: 0 45px; /*Preenchimento tanto acima quanto abaixo*/
+    padding: 5px 40px; /*Preenchimento tanto acima quanto abaixo*/
     text-indent: 15px; /*Recuo no início do texto*/
 }
 figure { 
@@ -28,6 +28,7 @@ figcaption {
     font-style: italic; /*Tipo de texto da figura*/
     margin-top: 10px; /*Margem ao topo*/
 }
+
 #centro-distribuicao { 
     margin-left: auto; 
     margin-right: auto; 
@@ -48,4 +49,9 @@ figcaption {
 #familia-pelho {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+.lista {
+    padding: 5px 40px;
+    list-style: disc;
 }
