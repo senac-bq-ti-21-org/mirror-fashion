@@ -1,0 +1,57 @@
+body {
+    color: #333333; /*Cor das letras em geral*/
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /*Fonte das letras em geral*/
+    margin-left: auto; /*Margem esquerda automática*/
+    margin-right: auto; /*Margem direita automática*/
+    width: 940px; /*Largura em pixels*/
+}
+h2 { 
+    border-bottom: 2px solid #333333; /*Borda solida abaixo do texto*/
+    margin-top: 30px; /*Margem ao topo*/
+}
+p {
+    padding: 5px 40px; /*Preenchimento tanto acima quanto abaixo*/
+    text-indent: 15px; /*Recuo no início do texto*/
+}
+figure { 
+    background-color: #F2EDED; /*Cor de fundo das fotos*/
+    border: 1px solid #ccc; /*Borda das figuras*/
+    text-align: center; /*Alinhamento do texto*/
+    padding: 15px; /*Preenchimento*/
+    margin: 30px; /*Margem*/
+} 
+figcaption { 
+    font-style: italic; /*Tipo de texto da figura*/
+    margin-top: 10px; /*Margem ao topo*/
+}
+
+#centro-distribuicao { 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 550px; 
+} 
+#rodape { 
+    background-color: #777;
+    color: #fff; 
+    margin: 30px 0; 
+    padding: 30px 0; 
+} 
+#rodape img { 
+    margin-left: 5px; 
+    margin-right: 30px; 
+    vertical-align: middle; 
+    width: 94px; 
+} 
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.lista {
+    padding: 5px 40px;
+    list-style: disc;
+}
+.titulo{ 
+    background-image: url("../src/img/sobre-background.jpg"); /*Imagem de fundo*/
+    padding: 10px; /*Preenchimento em pixels*/
+}
