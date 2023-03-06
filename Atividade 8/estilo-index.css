@@ -6,13 +6,16 @@ header {
     position: relative;
 }
 
+
 .sacola { 
     background: url("../src/img/sacola.png") no-repeat top right; 
     font-size: 14px; padding-right: 35px; 
     text-align: right; 
     width: 140px; 
     padding-top: 8px; 
-    position: absolute; top: 0; right: 0;
+    position: absolute; 
+    top: 0; 
+    right: 0;
 } 
 .menu-opcoes { 
     position: absolute; 
