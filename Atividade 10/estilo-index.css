@@ -32,7 +32,7 @@ header {
 .menu-opcoes a { 
     color: #003366; 
 }
-.conteiner {
+.container {
     margin: 0px auto;
     width: 940px;
 }
@@ -101,10 +101,8 @@ header {
     margin-top: 5px;
 }
 .novidades {
-    margin-left: 480px;
     background-color: #f5dcdc; 
 }
 .mais-vendidos {
-    margin-right: 480px;
     background-color: #dcdcf5; 
 }
