@@ -49,9 +49,11 @@ header {
 }
 .novidades { 
     float: left; 
+    background-color: #f5dcdc; 
 }
 .mais-vendidos { 
     float: right; 
+    background-color: #dcdcf5; 
 }
 .painel li {
     display: inline-block; 
@@ -74,10 +76,4 @@ header {
 }
 .painel figcaption {
     margin-top: 5px;
-}
-.novidades {
-    background-color: #f5dcdc; 
-}
-.mais-vendidos {
-    background-color: #dcdcf5; 
 }
