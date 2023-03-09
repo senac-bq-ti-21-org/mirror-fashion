@@ -1,9 +1,6 @@
 body {
     color: #333333; /*Cor das letras em geral*/
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /*Fonte das letras em geral*/
-    margin-left: auto; /*Margem esquerda automática*/
-    margin-right: auto; /*Margem direita automática*/
-    width: 940px; /*Largura em pixels*/
 }
 h1 {
     font-size: 200%;
@@ -53,6 +50,11 @@ figcaption {
 }
 
 
+.sobre {
+    margin-left: auto; /*Margem esquerda automática*/
+    margin-right: auto; /*Margem direita automática*/
+    width: 940px; /*Largura em pixels*/
+}
 .lista {
     padding: 5px 40px;
     list-style: disc;
