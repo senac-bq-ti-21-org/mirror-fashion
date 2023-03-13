@@ -32,18 +32,6 @@ figcaption {
     margin-right: auto; 
     width: 550px; 
 } 
-#rodape { 
-    background-color: #777;
-    color: #fff; 
-    margin: 30px 0; 
-    padding: 30px 0; 
-} 
-#rodape img { 
-    margin-left: 5px; 
-    margin-right: 30px; 
-    vertical-align: middle; 
-    width: 94px; 
-} 
 #familia-pelho {
     float: right;
     margin: 0 0 10px 10px;
@@ -59,7 +47,7 @@ figcaption {
     padding: 5px 40px;
     list-style: disc;
 }
-.titulo{ 
+.titulo { 
     background-image: url("../src/img/sobre-background.jpg"); /*Imagem de fundo*/
     padding: 10px; /*Preenchimento em pixels*/
 }
