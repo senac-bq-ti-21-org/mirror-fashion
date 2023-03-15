@@ -1,6 +1,6 @@
 document.querySelector("#form-busca").onsubmit = validaBusca;
 document.querySelector("#q").onfocus = restaurarBusca;
-document.querySelector("#q").onkeydown = restaurarBusca;
+document.querySelector("#q").onkeypress = restaurarBusca;
 
 
 function validaBusca() {
