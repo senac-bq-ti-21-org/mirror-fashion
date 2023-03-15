@@ -6,7 +6,8 @@ function validaBusca() {
         return false;
     }
 }
-document.querySelector("#q").onfocus = function() {
+document.querySelector("#q").onfocus = retornaBusca;
+function retornaBusca() {
     document.querySelector("#q").style.background = "#ffffff";
     document.querySelector("#q").placeholder = "";
 }
