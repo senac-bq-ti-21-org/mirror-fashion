@@ -5,9 +5,10 @@ function validaBusca() {
         return false;
     }
 }
-function retornaBusca() {
+function restaurarBusca() {
     document.querySelector("#q").style.background = "#ffffff";
     document.querySelector("#q").placeholder = "";
 }
 document.querySelector("#form-busca").onsubmit = validaBusca;
-document.querySelector("#q").onfocus = retornaBusca;
+document.querySelector("#q").onfocus = restaurarBusca;
+document.querySelector("#q").onkeydown = restaurarBusca;
