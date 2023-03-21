@@ -1,0 +1,79 @@
+body { 
+    color: #333333; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+header {
+    position: relative;
+}
+
+
+.container {
+    margin: 0px auto;
+    width: 940px;
+}
+.busca input { 
+    vertical-align: middle;
+} 
+.busca input[type=search] { 
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.menu-departamentos{
+    clear: left;
+}
+.menu-departamentos a { 
+    color: #333333; 
+    text-decoration: none;
+}
+.menu-departamentos li { 
+    background-color: white; 
+    margin-bottom: 1px; 
+    padding: 5px 10px; 
+}
+.busca, .menu-departamentos{
+    float: left;
+    background-color: #dcdcdc;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-right: 10px; 
+    width: 230px;
+}
+.busca h2, .busca form, .menu-departamentos h2 { 
+    margin: 10px; 
+}
+.painel { 
+    margin: 10px 0; 
+    padding: 10px; 
+    width: 445px;
+}
+.novidades { 
+    float: left; 
+    background-color: #f5dcdc; 
+}
+.mais-vendidos { 
+    float: right; 
+    background-color: #dcdcf5; 
+}
+.painel li {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 140px; 
+    margin: 2px; 
+    padding-bottom: 10px; 
+}
+.painel h2 {
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+}
+.painel a { 
+    color: #333; 
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.painel figcaption {
+    margin-top: 5px;
+}
