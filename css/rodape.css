@@ -1,6 +1,6 @@
 footer {
     color: white;
-    background-image: url("src/img/fundo-rodape.png");
+    background-image: url("../src/img/fundo-rodape.png");
     clear: both;
     padding: 20px 0;
     width: 100%;
@@ -26,11 +26,11 @@ footer .container {
     text-indent: -999999px;
 }
 .social a[href*="facebook.com"] {
-    background-image: url("src/img/facebook.png");
+    background-image: url("../src/img/facebook.png");
 }
 .social a[href*="twitter.com"] {
-    background-image: url("src/img/twitter.png");
+    background-image: url("../src/img/twitter.png");
 }
 .social a[href*="plus.google.com"] {
-    background-image: url("src/img/googleplus.png");
+    background-image: url("../src/img/googleplus.png");
 }

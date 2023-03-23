@@ -32,5 +32,4 @@ controle.onclick = function() {
         timer = setInterval(trocaBanner, 4000);
         controle.className = "pause"
     }
-    return false;
 }

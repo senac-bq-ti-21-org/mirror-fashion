@@ -48,6 +48,6 @@ figcaption {
     list-style: disc;
 }
 .titulo { 
-    background-image: url("src/img/sobre-background.jpg"); /*Imagem de fundo*/
+    background-image: url("../src/img/sobre-background.jpg"); /*Imagem de fundo*/
     padding: 10px; /*Preenchimento em pixels*/
 }
