@@ -1,4 +1,4 @@
-var banners = ["../src/img/destaque-home.png", "../src/img/destaque-home-2.png"];
+var banners = ["src/img/destaque-home.png", "src/img/destaque-home-2.png"];
 var bannerAtual = 0; 
 var timer = setInterval(trocaBanner, 4000);
 var controle = document.querySelector(".pause");
