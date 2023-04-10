@@ -5,9 +5,7 @@ body {
 header {
     position: relative;
 }
-
-
-:not(p) + p:first-line {
+p:not(.sacola):first-line {
     font-variant: small-caps;
 }
 
