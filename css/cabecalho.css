@@ -32,6 +32,12 @@ header {
 .menu-opcoes a { 
     color: #003366; 
 }
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+.menu-opcoes a:active{
+    color: #867dc6;
+}
 .container {
     margin: 0px auto;
     width: 940px;

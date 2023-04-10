@@ -25,6 +25,15 @@ figcaption {
     font-style: italic; /*Tipo de texto da figura*/
     margin-top: 10px; /*Margem ao topo*/
 }
+p:first-letter {
+    font-weight: bold;
+}
+p:first-line {
+    font-variant: small-caps;
+}
+h1 + p {
+    text-indent: 0;
+}
 
 
 #centro-distribuicao { 
