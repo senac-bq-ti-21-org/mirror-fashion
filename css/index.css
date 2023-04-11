@@ -7,10 +7,6 @@ header {
     position: relative;
 }
 
-p:not(.sacola):first-line {
-    font-variant: small-caps;
-}
-
 
 .container {
     margin: 0px auto;

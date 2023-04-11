@@ -34,7 +34,7 @@ figcaption {
 p:first-letter {
     font-weight: bold;
 }
-p:first-line {
+:not(p, #centro-distribuicao) + p:not(.sacola):first-line {
     font-variant: small-caps;
 }
 
