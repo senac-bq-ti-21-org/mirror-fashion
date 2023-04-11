@@ -55,6 +55,7 @@ footer .container {
 .container {
     margin: 0px auto;
     width: 940px;
+    margin-bottom: 5px;
 }
 
 .busca input { 
