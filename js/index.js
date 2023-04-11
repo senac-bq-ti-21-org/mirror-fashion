@@ -3,11 +3,9 @@ var bannerAtual = 0;
 var timer = setInterval(trocaBanner, 4000);
 var controle = document.querySelector(".pause");
 
-
 document.querySelector("#form-busca").onsubmit = validaBusca;
 document.querySelector("#q").onfocus = restaurarBusca;
 document.querySelector("#q").onkeypress = restaurarBusca;
-
 
 function validaBusca() {
     if(document.querySelector("#q").value == "") {
