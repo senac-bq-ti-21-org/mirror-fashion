@@ -1,12 +1,3 @@
-body { 
-    color: #333333; 
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-}
-header {
-    position: relative;
-}
-
-
 .sacola { 
     background: url("../src/img/sacola.png") no-repeat top right; 
     font-size: 14px; padding-right: 35px; 
@@ -17,6 +8,7 @@ header {
     top: 0; 
     right: 0;
 } 
+
 .menu-opcoes { 
     position: absolute; 
     bottom: 0; 
@@ -38,6 +30,7 @@ header {
 .menu-opcoes a:active{
     color: #867dc6;
 }
+
 .container {
     margin: 0px auto;
     width: 940px;

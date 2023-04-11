@@ -5,6 +5,7 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
+
 footer .container {
     position: relative;
 }
@@ -20,10 +21,10 @@ footer .container {
     margin-left: 25px;
 }
 .social a {
+    color: rgba(0, 0, 0, 0);
     height: 32px;
     width: 32px;
     display: block;
-    text-indent: -999999px;
 }
 .social a[href*="facebook.com"] {
     background-image: url("../src/img/facebook.png");
