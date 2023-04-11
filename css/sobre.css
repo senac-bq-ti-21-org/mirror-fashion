@@ -31,7 +31,7 @@ figcaption {
     margin-top: 10px; /*Margem ao topo*/
 }
 
-p:first-letter {
+p:not(.sacola):first-letter {
     font-weight: bold;
 }
 :not(p, #centro-distribuicao) + p:not(.sacola):first-line {
@@ -42,7 +42,7 @@ h1 + p {
     text-indent: 0;
 }
 
-h1 + p:first-letter, #familia-pelho + p:first-letter {
+h1 + p:not(.sacola):first-letter, #familia-pelho + p:first-letter {
     font-size: 200%;
 }
 

@@ -7,6 +7,50 @@ header {
     position: relative;
 }
 
+footer {
+    color: white;
+    background-image: url("../src/img/fundo-rodape.png");
+    clear: both;
+    padding: 20px 0;
+    width: 100%;
+}
+footer .container {
+    position: relative;
+}
+
+
+.menu-opcoes { 
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+}
+.menu-opcoes ul { 
+    font-size: 15px; 
+} 
+.menu-opcoes ul li { 
+    display: inline;
+    margin-left: 20px;
+} 
+.menu-opcoes a { 
+    color: #003366; 
+}
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+.menu-opcoes a:active{
+    color: #867dc6;
+}
+
+.sacola { 
+    background: url("../src/img/sacola.png") no-repeat top right; 
+    font-size: 14px; padding-right: 35px; 
+    text-align: right; 
+    width: 140px; 
+    padding-top: 8px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+} 
 
 .container {
     margin: 0px auto;
@@ -126,4 +170,29 @@ header {
     position: absolute;
     right: 15px;
     top: 15px;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+.social a {
+    color: rgba(0, 0, 0, 0);
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+.social a[href*="facebook.com"] {
+    background-image: url("../src/img/facebook.png");
+}
+.social a[href*="twitter.com"] {
+    background-image: url("../src/img/twitter.png");
+}
+.social a[href*="plus.google.com"] {
+    background-image: url("../src/img/googleplus.png");
 }
