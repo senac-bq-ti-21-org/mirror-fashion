@@ -153,17 +153,17 @@ footer .container {
     position: relative;
 }
 
+.play {
+    border-left: 25px solid #900;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+
 .pause {
     border-left: 10px solid #900;
     border-right: 10px solid #900;
     height: 30px;
     width: 5px;
-}
-
-.play {
-    border-left: 25px solid #900;
-    border-bottom: 15px solid transparent;
-    border-top: 15px solid transparent;
 }
 
 .pause, .play {
@@ -183,7 +183,7 @@ footer .container {
     margin-left: 25px;
 }
 .social a {
-    color: rgba(0, 0, 0, 0);
+    font-size: 0px;
     height: 32px;
     width: 32px;
     display: block;
